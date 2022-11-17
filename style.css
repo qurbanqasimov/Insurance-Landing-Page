@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color:white;
+    position: fixed;
+    z-index: 3;
+
+    box-shadow: -9px 3px 3px rgb(167, 160, 160);
+    
+}
+
+nav h2{
+    color: rgb(20, 19, 19);
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 40px;
+    font-size: 40px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 30px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 550;
+    text-transform: uppercase;
+}
+
+nav ul li  {
+    display: inline;
+    list-style: none;
+    line-height: 80px;
+ margin: 0 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(110, 103, 103);
+
+}
+
+
+.btn{
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.btn:hover{
+    background-color: rgb(56, 56, 105);
+    color: white;
+    transition: 0.5s;
+}
+
+.container{
+    background-color: rgb(56, 56, 105);
+    width: 100%;
+    height: 97vh;
+    
+}
+
+.container img{
+    width: 550px;
+    height: 530px;
+    margin-top: 166px;
+    float: right;
+    margin-right: 30px;
+}
+
+
+.text{
+    position: absolute;
+margin-left: 30px;
+margin-top: 25vh;
+font-size: 30px;
+width: 80vh;
+color: rgb(255, 255, 255);
+}
+
+.text hr{
+    width: 20vh;
+}
+
+.text p{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgb(189, 178, 178);
+    margin: 34px 0;
+}
+
+.text a{
+    text-decoration: none;
+    color: white;
+    border-color: white;
+    font-family: sans-serif;
+       
+}
+
+.text .btn:hover{
+    background-color: white;
+    color: rgb(56, 56, 105);
+}
+
+
+.h2 img {
+    width: 511px;
+    height: 481px;
+    margin: 110px 45px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.textt{
+    margin-left: 110vh;
+    margin-top: -70vh;
+    font-size: 26px;
+}
+
+.textt p{
+    margin: 30px 0;
+    font-family: sans-serif;
+    font-size: 19px;
+    width: 500px;
+    color: rgb(173, 164, 164);
+}
+
+.textt a{
+text-decoration:none;
+}
+
+.btn2{
+    color: rgb(56, 56, 105);
+    font-family: sans-serif;
+    border: 2px solid ;
+    border-radius: 6px;
+    padding: 15px;
+    
+}
+
+.btn2:hover {
+    color:white;
+    background-color:rgb(56, 56, 105) ;
+    transition: 0.8s;
+}
+
+.containerr .exit{
+    color:rgb(46, 44, 44) ;
+    margin-top: 60vh;
+    margin-left: 60px;
+    font-size: 25px;
+}
+
+.containerr hr{
+    width: 30vh;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons .i{
+    margin: 40px;
+    margin-left: 54px;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 7.5vh;
+    background-color: rgb(48, 124, 175);
+}
+
+.icons h1{
+    margin: 30px ;
+    margin-left: 50px;
+}
+
+.icons p{
+    color: rgb(104, 100, 100);
+    margin: 20px;
+    margin-left: 50px;
+    font-family: sans-serif;
+    font-size: 18px;
+    width: 400px;
+}
+
+ .fff{
+    background-color:rgb(56, 56, 105);
+    padding: 50px 50px;
+    display :flex;
+    align-items: center;
+}
+
+.fff h1{
+     font-size: 40px;
+    width: 350px;
+    color: white;
+}
+
+.fff  a {
+    text-decoration: none;
+}
+
+.fff .btn2{
+    text-transform: uppercase;
+    margin-left: 90vh;
+    color: white;
+    font-weight: bold;
+}
+
+.fff .btn2:hover{
+    background: white;
+    color:rgb(56, 56, 105) ;
+}
+
+.fot h1{
+    margin: 30px 40px 40px ;
+    font-size: 50px;
+}
+
+.fot hr{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: -30px;
+    
+}
+
+ footer a  {
+    margin: 20px;
+ }
+
+ footer a i{
+    color: rgb(255, 255, 255);
+ }
+
+ footer a{
+    border: 1px solid rgb(255, 255, 255);
+padding: 5px;
+border-radius: 5px;
+cursor: pointer;
+line-height: 50px;
+margin: 10px;
+} 
+
+footer .iconsws{
+    text-align: center;
+    background-color:rgb(56, 56, 105) ;
+}
+
+footer a i:hover{
+
+color: black;
+}
+
+footer h3{
+    font-size: 30px;
+    background-color: rgb(56, 56, 105);
+    color: white;
+    text-align: center;
+    margin: 30px 0  0;
+    padding: 30px;
+}
